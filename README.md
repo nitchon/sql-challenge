@@ -15,4 +15,12 @@ Entity-Relationship Diagram
 
 ![ERD](https://user-images.githubusercontent.com/107419765/186199413-5b02adbd-a5d8-4667-a342-992a654e9071.PNG)
 
+Salary Distribution
+
+![image](https://user-images.githubusercontent.com/107419765/186201670-cd20dd13-6f07-4678-91b3-51515ae261eb.png)
+
+Average Salary by Job Title
+
+![image](https://user-images.githubusercontent.com/107419765/186201773-726d88bd-cad2-43ca-bece-5a67f03dfe6f.png)
+
 
