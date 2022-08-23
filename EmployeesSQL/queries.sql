@@ -1,6 +1,6 @@
 -- List the following details of each employee: employee number, last name, first name, sex, and salary.
 
-SELECT e.employee_id, e.first_name, e.last_name, e.sex, s.salary
+SELECT e.employee_id, e.last_name, e.first_name, e.sex, s.salary
 FROM employees as e
 JOIN salaries as s
 ON e.employee_id = s.employee_id;
@@ -38,7 +38,7 @@ AND last_name LIKE 'B%';
 
 -- List all employees in the Sales department, including their employee number, last name, first name, and department name.
 
-Select e.employee_id,e.first_name,e.last_name, d.department_name
+Select e.employee_id,e.last_name,e.first_name, d.department_name
 FROM employees as e
 JOIN department_employees_junction as de_j
 ON e.employee_id = de_j.employee_id
@@ -48,7 +48,7 @@ WHERE d.department_name = 'Sales';
 
 -- List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-Select e.employee_id,e.first_name,e.last_name, d.department_name
+Select e.employee_id,e.last_name,e.first_name, d.department_name
 FROM employees as e
 JOIN department_employees_junction as de_j
 ON e.employee_id = de_j.employee_id
